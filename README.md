@@ -17,10 +17,11 @@ Make sure you have read the section "Before starting" above.
 
 Now navigate into the directory and type:  
 
-        pyhton3 gaslevels_eu.py
+        python3 gaslevels_eu.py
 
-The output looks like:
-![example_output.png](./example_output.png)
+The output looks like:  
+
+![example_output.png](./example_output.png)  
 
 # Just saying
 With the data beeing released by the "Gas Infrastructure Europe" I don't guarantee for the correctness of the data. Check out [their website](https://agsi.gie.eu).
