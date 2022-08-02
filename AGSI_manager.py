@@ -48,14 +48,18 @@ def getGasLevels():
             print("\t\t (see also agsi.gie.eu)\n")
             print("Country:")
 
-        # Check API response
+        # Check for bad API response
         if not agsi_data['data']:
-            print(f"Error in API response (country code {countries[i]})")
+            print(f"   - {countries[i]}: Error in API response. Wrong API key or more than 60 req/hr?\n")
+            # Write data into an error.json file
+            with open("outputs/error.json", 'a') as out:
+                out.write(json.dumps(agsi_data, indent = 4, sort_keys=False) + '\n')
             continue
+
         else:
-            # Output all data into a .json file
-            with open("outputs/agsi_data.json", 'a') as out:
-                out.write(json.dumps(agsi_data, indent = 4, sort_keys=True) + '\n')
+            # If you want to output all data into a .json file
+            # with open("outputs/agsi_data.json", 'a') as out:
+            #    out.write(json.dumps(agsi_data, indent = 4, sort_keys=True) + '\n')
 
             # Extract and output the gas level
             try:
