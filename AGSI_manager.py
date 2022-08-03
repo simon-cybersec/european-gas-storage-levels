@@ -15,7 +15,7 @@ def getGasLevels():
     api_url = 'https://agsi.gie.eu/api'
 
     # Countries to be read
-    countries = ["AT", "BE", "BG", "CZ", "DE", "DK", "ES", "FR", "HR", "HU", "IE", "IT", "LV", "NL", "PL", "PT", "RO", "SE", "SK", "UA"]
+    countries = ["AT", "BE", "BG", "CZ", "DE", "DK", "ES", "FR", "HR", "HU", "IT", "LV", "NL", "PL", "PT", "RO", "SE", "SK", "UA"]
     
     print()
     print("+-----------------------------------------------------------------------+")
