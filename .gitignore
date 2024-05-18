@@ -128,5 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+
+.directory
+
 # Output files
 outputs
