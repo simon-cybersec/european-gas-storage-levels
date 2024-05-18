@@ -13,13 +13,17 @@ Clone this repository, navigate into it and create a file '.env' inside of which
 By the way, always make sure to not hard code an API key. Access a key using an environment variable. I.e. write it into a '.env' file and add '.env' to your .gitignore file so that it doesn't get published in your repository.
 
 # Usage
-Make sure you have read the above section "Before starting".  
+1. Make sure you have specified the API key as described above in the section "Before starting".
 
-Now navigate into the directory and type:  
+2. Create a python virtual environment and install the packages listed in the requirements.txt file using the command
+
+        pip3 install -r requirements.txt
+
+3. Execute the python script by typing:  
 
         python3 gaslevels_eu.py
 
-The output looks like this:  
+The output looks like depicted in the following image:  
 
 ![example_output.png](./example_output.png)  
 
