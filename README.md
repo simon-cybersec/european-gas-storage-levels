@@ -4,7 +4,7 @@ A tool to get the current gas storage levels of the european countries.
 Currently (August 2022) the gas levels in the european storage facilities are of huge interest. With this tool you can easily inspect them on your own.
 
 # Before starting
-The data is released by the "Gas Infrastructure Europe" (GIE). They offer an API service for the public free of charge which is used by this tool. To get access to the API you have to create an account [on their website](https://agsi.gie.eu/account). After sign up you get your personal API key.  
+The data is released by the "Gas Infrastructure Europe" (GIE). They offer an API service for the public free of charge which is used by this tool. To get access to the API you have to create an account [on their website](https://agsi.gie.eu/account). After signing up you get your personal API key.  
 
 Clone this repository, navigate into it and create a file '.env' inside of which you specify you API key:  
 
